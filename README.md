@@ -2,6 +2,10 @@
 
 This repo contains the peripheral tests for the new CS-GW-002-IQ gateway device, based on the EFM32 Giant Gecko MCU.
 
+## SYSTEM DATA FLOW
+
+![System Function Flow](SYSTEM_FUNC_FLOW.png)
+
 ### Micrium OS Network Example
 
 This example shows how to use the Micrium OS network stack with the ETH 
