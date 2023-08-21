@@ -2,19 +2,6 @@
 
 This repo contains the peripheral tests for the new CS-GW-002-IQ gateway device, based on the EFM32 Giant Gecko MCU.
 
-## Current Issues
-
-### 1. Can't read received data from IQRF
-
-The application cannot currently read the data packet from the IQRF module, however status checks and requests for packet size seem to work fine. Example output from VCOM is shown below:
-
-```
-Polling IQRF
-Reading 35 bytes of data: 
-Req Packet: F0.23.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.8C.00.
-Res Packet: 63.F0.23.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.00.8C.
-```
-
 ### Micrium OS Network Example
 
 This example shows how to use the Micrium OS network stack with the ETH 
